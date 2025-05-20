@@ -1,7 +1,5 @@
 const pool = require('../dataBase/db').pool;
 
-
-
 exports.getUsers = async (req, res) => {
     try {
         const result = await pool.query('SELECT * FROM users');

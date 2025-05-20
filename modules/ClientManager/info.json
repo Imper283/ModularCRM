@@ -1,0 +1,8 @@
+{
+    "name": "ClientManager",
+    "type": "tool",
+    "status": "enabled",
+    "errorResponse": "ignore",
+    "npmModuleDependency": ["fs", "path"],
+    "permissions": ["Logging", "RoutesExpansion", "ToolManaging"]
+}

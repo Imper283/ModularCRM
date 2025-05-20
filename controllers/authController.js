@@ -1,3 +1,4 @@
+const logger = require("../appLibs/logger")
 const pool = require('../dataBase/db').pool;
 const authentication = require('../appLibs/authLib');
 
