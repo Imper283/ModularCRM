@@ -108,14 +108,6 @@ function toolManager(name){
     return new ToolManager(name)
 }
 
-//Permission name: HubManage
-class HubManage{
-    #moduleName
-    constructor(name){
-        this.#moduleName = name
-    }
-}
-
 //Permission name: RouteExpand
 class RoutesExpansion{
     #moduleName
